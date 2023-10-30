@@ -34,6 +34,7 @@ function Modal({ onClose, children }) {
       document.body.style.overflow = 'auto';
       document.removeEventListener('keydown', closeModalByEsc);
     };
+    // react-hooks/exhaustive-deps
   }, []);
 
   const handleOverlayClick = (e) => {
