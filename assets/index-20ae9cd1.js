@@ -1,0 +1,1 @@
+import{aF as o,r}from"./index-2ffefb19.js";const s=()=>{const a=o(),{pathname:t}=window.location;r.useEffect(()=>{const e=new Date,n=new Date(e).toISOString().slice(0,7);a(`/calendar/month/${n}`)},[t==="/project-starship/calendar"])},i=s;export{i as default};
