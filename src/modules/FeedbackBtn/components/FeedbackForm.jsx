@@ -59,7 +59,7 @@ function FeedbackForm({ onClose }) {
       return;
     }
     form.setValues(feedback);
-    // react-hooks/exhaustive-deps
+// eslint-disable-next-line react-hooks/exhaustive-deps
   }, [feedback]);
 
   const onSubmit = async ({ rating, text }) => {
