@@ -12,7 +12,7 @@ i18n
     fallbackLng: 'en',
     supportedLngs: ['en', 'ua'],
     backend: {
-      loadPath: import.meta.env.BASE_URL + '/locales/{{lng}}/translation.json',
+      loadPath: '/react-node-fs78-SalOne22/locales/{{lng}}/translation.json',
     },
   });
 
